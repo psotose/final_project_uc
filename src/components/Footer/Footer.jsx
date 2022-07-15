@@ -7,11 +7,11 @@ const Footer = () => {
 	return (
 		<div className="footer">
 			<div>
-				<Link to="/">
-					<img className="logo-footer" src={icon_bb} alt="logo" />
+				<Link to="/final_project_usach">
+					<img className="footer-logo" src={icon_bb} alt="logo" />
 				</Link>
 			</div>
-			<div className="createdBy">Creado por Patricia Soto y Fabián Morales</div>
+			<div className="footer-createdBy">Creado por Patricia Soto y Fabián Morales</div>
 		</div>
 	);
 };
