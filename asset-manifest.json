@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/final_project_usach/static/css/main.e6c13ad2.css",
-    "main.js": "/final_project_usach/static/js/main.a7a413de.js",
+    "main.css": "/final_project_usach/static/css/main.beee30da.css",
+    "main.js": "/final_project_usach/static/js/main.355a421d.js",
+    "static/media/fondo_Walter.mp4": "/final_project_usach/static/media/fondo_Walter.f7c183a8cbb86b87c695.mp4",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/final_project_usach/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/breakingbad.otf": "/final_project_usach/static/media/breakingbad.3513760cec3086c0167f.otf",
+    "static/media/bb-banner.png": "/final_project_usach/static/media/bb-banner.e420a6ddc6e725b41f58.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/final_project_usach/index.html",
-    "main.e6c13ad2.css.map": "/final_project_usach/static/css/main.e6c13ad2.css.map",
-    "main.a7a413de.js.map": "/final_project_usach/static/js/main.a7a413de.js.map"
+    "main.beee30da.css.map": "/final_project_usach/static/css/main.beee30da.css.map",
+    "main.355a421d.js.map": "/final_project_usach/static/js/main.355a421d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.a7a413de.js"
+    "static/css/main.beee30da.css",
+    "static/js/main.355a421d.js"
   ]
 }
