@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "BB";
+	src: url("../../Fonts/breakingbad.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+.navbar {
+	display: flex;
+	position: relative;
+	top: 0;
+	background-image: url("../../media/bb-banner.png");
+	width: 100%;
+	height: 160px;
+	padding: 20px;
+	z-index: 1;
+	box-shadow: 0 0 15px 20px rgb(13, 10, 10) inset;
+}
+.logo {
+	display: grid;
+	height: 150px;
+	width: 150px;
+	box-shadow: 0 0 15px #0d3e10;
+	border-radius: 15px;
+}
+.menu-nav {
+	display: flex;
+	flex: 1 1 auto;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row;
+	padding: 10px;
+}
+.menu-nav a {
+	font-family: "BB";
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 70px;
+	padding: 10px;
+}
+.menu-nav a:hover {
+	color: #001a39;
+}
