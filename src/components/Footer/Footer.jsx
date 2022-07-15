@@ -1,7 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import icon_bb from "../../media/black_icon.PNG";
+import icon_bb from "../../media/black_icon.png";
+
 const Footer = () => {
 	return (
 		<div className="footer">

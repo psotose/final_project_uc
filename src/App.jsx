@@ -1,9 +1,12 @@
-import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "../src/Components/Navbar/Navbar";
-import Main from "./Components/Pages/Main/Main";
-import Characters from "./Components/Pages/CharactersDetails/CharactersDetails";
-import Footer from "./Components/Footer/Footer";
+
+import Navbar from "../src/components/Navbar/Navbar";
+import Main from "./components/pages/Main/Main";
+import Characters from "./components/pages/CharactersDetails/CharactersDetails";
+import Footer from "./components/Footer/Footer";
+
+import "./App.css";
+
 function App() {
 	return (
 		<div className="App">
