@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "../src/Components/Navbar/Navbar";
 import Main from "./Components/Pages/Main/Main";
-import Characters from "./Components/Pages/CharactersDetails/CharactersDetails";
+import Character from "./Components/Pages/CharactersDetails/CharactersDetails";
 import Footer from "./Components/Footer/Footer";
 function App() {
 	return (
@@ -11,7 +11,7 @@ function App() {
 				<Navbar />
 				<Routes>
 					<Route path="/" exact element={<Main />} />
-					<Route path="/Characters" element={<Characters />} />
+					<Route path="/Character" element={<Character />} />
 				</Routes>
 				<Footer />
 			</Router>

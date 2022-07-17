@@ -26,17 +26,17 @@
 	display: flex;
 	flex: 1 1 auto;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-end;
 	flex-flow: row;
-	padding: 10px;
+	padding-right: 300px;
 }
 .menu-nav a {
 	font-family: "BB";
-	color: #ffffff;
+	color: #d2ad17;
 	text-decoration: none;
 	font-size: 70px;
 	padding: 10px;
 }
 .menu-nav a:hover {
-	color: #001a39;
+	color: #ffffff;
 }
