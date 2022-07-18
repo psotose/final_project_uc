@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "../src/components/Navbar/Navbar";
 import Main from "./components/pages/Main/Main";
-import Characters from "./components/pages/CharactersDetails/CharactersDetails";
+import Character from "./components/pages/Character/Character";
 import Footer from "./components/Footer/Footer";
 
 import "./App.css";
@@ -14,7 +14,7 @@ function App() {
 				<Navbar />
 				<Routes>
 					<Route path="/final_project_usach" exact element={<Main />} />
-					<Route path="/Characters" element={<Characters />} />
+					<Route path="/Character" element={<Character />} />
 				</Routes>
 				<Footer />
 			</Router>
