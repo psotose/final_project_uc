@@ -1,17 +1,33 @@
 import React from "react";
-import bg_Walter from "../../../media/fondo_Walter.mp4";
+import fondo_Walter from "../../../media/fondo_Walter.mp4";
 import "./Main.css";
+import Card from "../Card/Card";
 
 const Home = () => {
 	return (
-		<div className="cover-container">
+		<div className="container">
 			<video
 				className="background-video"
-				src={bg_Walter}
+				src={fondo_Walter}
 				autoPlay
 				loop
 				muted
 			/>
+			<h1 className="container-title">Elije un personaje</h1>
+			<div className="container-card">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>
 		</div>
 	);
 };
