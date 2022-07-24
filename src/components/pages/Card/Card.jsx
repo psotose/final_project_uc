@@ -1,30 +1,18 @@
-import { React, useEffect, useState } from "react";
-import { getCharacters, getQuotes } from "../../../services/breakingBadApi";
+import { React } from "react";
+import { Link } from "react-router-dom";
 import "./Card.css";
-const Card = () => {
-	const [characters, setCharacters] = useState(null);
-	const [quotes, setQuotes] = useState(null);
 
-	useEffect(() => {
-		getCharacters(setCharacters);
-	}, []);
-
-	useEffect(() => {
-		getQuotes(setQuotes);
-	}, []);
-
-	return (
-		<div className="card">
-			<h1 className="card-name">Walter White</h1>
-			<div className="card-content">
-				<img
-					className="card-content-img"
-					src="https://s-i.huffpost.com/gen/1317262/images/o-ANNA-GUNN-facebook.jpg"
-					alt="walter"
-				/>
-			</div>
-		</div>
-	);
+const Card = ({ character }) => {
+  return (
+    <Link to={"/Character/" + character.char_id}>
+      <div className="card">
+        <h1 className="card-name">{character.name}</h1>
+        <div className="card-content">
+          <img className="card-content-img" src={character.img} alt="walter" />
+        </div>
+      </div>
+    </Link>
+  );
 };
 
 export default Card;

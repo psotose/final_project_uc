@@ -8,18 +8,18 @@ import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
-	return (
-		<div className="App">
-			<Router>
-				<Navbar />
-				<Routes>
-					<Route path="/final_project_usach" exact element={<Main />} />
-					<Route path="/Character" element={<Character />} />
-				</Routes>
-				<Footer />
-			</Router>
-		</div>
-	);
+  return (
+    <div className="App">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/final_project_usach" exact element={<Main />} />
+          <Route path="/Character/:id" element={<Character />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
+  );
 }
 
 export default App;
