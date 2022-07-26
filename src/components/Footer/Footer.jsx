@@ -1,5 +1,4 @@
 import React from "react";
-import "./Footer.css";
 import { Link } from "react-router-dom";
 import icon_bb from "../../media/black_icon.png";
 
@@ -8,10 +7,10 @@ const Footer = () => {
 		<div className="footer">
 			<div>
 				<Link to="/final_project_usach">
-					<img className="footer-logo" src={icon_bb} alt="logo" />
+					<img className="footer__logo" src={icon_bb} alt="logo" />
 				</Link>
 			</div>
-			<div className="footer-createdBy">Creado por Patricia Soto y Fabián Morales</div>
+			<div className="footer__createdBy">Creado por Patricia Soto y Fabián Morales</div>
 		</div>
 	);
 };

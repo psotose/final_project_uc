@@ -1,0 +1,53 @@
+.character {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	height: 25em;
+	width: 70em;
+	margin: 4em;
+	padding: 1em;
+	border: 1px solid black;
+	background-image: url(../../media/bg-character.jpg);
+	background-size: 100%;
+	background-color: rgb(45, 35, 5);
+	border-radius: 1em;
+	box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+
+	animation: mov 20s infinite;
+	&__img {
+		height: 25em;
+		width: 15em;
+		position: absolute;
+		right: 1em;
+		bottom: 0px;
+		z-index: 2;
+		border-radius: 0.5em;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	&__details {
+		position: relative;
+		z-index: 2;
+		text-shadow: 0 3 10 rgba(0, 0, 0, 0.7);
+	}
+	&__name {
+		font-family: "Rubik", Sans-serif;
+		font-size: 3em;
+		margin: 0;
+		text-transform: uppercase;
+		color: aliceblue;
+	}
+	&__p {
+		color: aliceblue;
+		font-size: 1em;
+	}
+}
+
+@keyframes mov {
+	from {
+		background-position: top lef 0;
+	}
+	to {
+		background-position: bottom right;
+	}
+}

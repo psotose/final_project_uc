@@ -5,8 +5,6 @@ import Main from "./components/pages/Main/Main";
 import Character from "./components/pages/Character/Character";
 import Footer from "./components/Footer/Footer";
 
-import "./App.css";
-
 function App() {
   return (
     <div className="App">
