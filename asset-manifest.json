@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/final_project_usach/static/css/main.beee30da.css",
-    "main.js": "/final_project_usach/static/js/main.355a421d.js",
+    "main.css": "/final_project_usach/static/css/main.eb3e902d.css",
+    "main.js": "/final_project_usach/static/js/main.712ff528.js",
     "static/media/fondo_Walter.mp4": "/final_project_usach/static/media/fondo_Walter.f7c183a8cbb86b87c695.mp4",
+    "static/media/bg-character.jpg": "/final_project_usach/static/media/bg-character.563ef21029f0df2f4c5c.jpg",
+    "static/media/fondo_Bb.mp4": "/final_project_usach/static/media/fondo_Bb.441119f5737f388b0566.mp4",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/final_project_usach/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -11,11 +13,11 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/final_project_usach/index.html",
-    "main.beee30da.css.map": "/final_project_usach/static/css/main.beee30da.css.map",
-    "main.355a421d.js.map": "/final_project_usach/static/js/main.355a421d.js.map"
+    "main.eb3e902d.css.map": "/final_project_usach/static/css/main.eb3e902d.css.map",
+    "main.712ff528.js.map": "/final_project_usach/static/js/main.712ff528.js.map"
   },
   "entrypoints": [
-    "static/css/main.beee30da.css",
-    "static/js/main.355a421d.js"
+    "static/css/main.eb3e902d.css",
+    "static/js/main.712ff528.js"
   ]
 }
