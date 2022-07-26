@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "BB";
-	src: url("/public/assets/fonts/breakingbad.otf");
+	src: url(../../media/breakingbad.otf);
 	font-style: normal;
 	font-weight: normal;
 }
@@ -12,7 +12,7 @@
 	display: flex;
 	position: relative;
 	top: 0;
-	background-image: url("/public/assets/img/bb-banner.png");
+	background-image: url(../../media/bb-banner.png);
 	height: 9rem;
 	width: 100%;
 	padding: 1.25rem;

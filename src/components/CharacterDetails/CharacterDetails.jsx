@@ -1,5 +1,4 @@
 import React from "react";
-import "./CharacterDetails.css";
 
 const CharacterDetails = ({ character }) => {
   return (

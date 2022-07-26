@@ -1,5 +1,4 @@
 import React from "react";
-import "./Footer.css";
 import { Link } from "react-router-dom";
 import icon_bb from "../../media/black_icon.png";
 

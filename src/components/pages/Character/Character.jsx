@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import CharacterDetails from "../../CharacterDetails/CharacterDetails";
 import fondo_Bb from "../../../media/fondo_Bb.mp4";
 import { getCharacter } from "../../../services/breakingBadApi";
-import "./Character.css";
 
 const Character = () => {
   const [character, setCharacter] = useState(null);
