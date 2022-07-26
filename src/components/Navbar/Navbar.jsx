@@ -5,7 +5,7 @@ import "font-awesome/css/font-awesome.min.css";
 const Navbar = () => {
 	return (
 		<nav className="navbar">
-			<div className="nabvar-links">
+			<div className="nabvar__links">
 				<Link to="/final_project_usach">Home</Link>
 			</div>
 		</nav>

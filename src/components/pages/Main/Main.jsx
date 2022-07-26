@@ -18,14 +18,14 @@ const Home = () => {
   return (
     <div className="container">
       <video
-        className="background-video"
+        className="container__bg-video"
         src={fondo_Walter}
         autoPlay
         loop
         muted
       />
-      <h1 className="container-title">Elije un personaje</h1>
-      <div className="container-card">
+      <h1 className="container__title">Elije un personaje</h1>
+      <div className="container__card">
         {characters?.map((character) => (
           <Card character={character} />
         ))}

@@ -9,13 +9,13 @@
 	font-size: 20px;
 	z-index: 1;
   justify-content: center;
-}
-.footer-logo {
-	height: 6rem;
-	width: 9.375rem;
-}
-.footer-createdBy {
-	display: grid;
-	align-items: center;
-	color: aliceblue;
+	&__logo {
+		height: 6rem;
+		width: 9.375rem;
+	}
+	&__createdBy {
+		display: grid;
+		align-items: center;
+		color: aliceblue;
+	}
 }

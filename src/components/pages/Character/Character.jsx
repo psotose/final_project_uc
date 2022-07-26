@@ -9,13 +9,12 @@ const Character = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    console.log("ejecta la api");
     getCharacter(setCharacter, id);
   }, [setCharacter, id]);
 
   return (
-    <div className="characterDetails-container">
-      <video className="background-video" src={fondo_Bb} autoPlay loop muted />
+    <div className="characterDetails">
+      <video className="characterDetails__bg-video" src={fondo_Bb} autoPlay loop muted />
       <div>
         <CharacterDetails character={character} />
       </div>
