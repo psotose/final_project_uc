@@ -8,6 +8,9 @@
 		transform: scale(1.25);
 		opacity: 1;
 	}
+	@media screen and (max-width: 1024px) {
+		opacity: 1;
+	}
 	&__content {
 		margin: 1em;
 	}
@@ -20,6 +23,7 @@
 		display: flex;
 		align-items: flex-end;
 		padding: 0.6em;
+		padding-top: 3em;
 		height: 5em;
 		width: 4em;
 		color: aliceblue;
@@ -28,6 +32,10 @@
 		transition: opacity 2s;
 		&:hover {
 			opacity: 1;
+		}
+		@media screen and (max-width: 1024px) {
+			opacity: 0.9;
+			font-size: 1.5em;
 		}
 	}
 }
