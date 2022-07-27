@@ -1,11 +1,15 @@
 import axios from "axios";
 
-export const getCharacters = async (state) => {
+const limitPage = 27;
+
+export const getCharacters = async (setState, page) => {
   try {
     const petition = await axios.get(
-      "https://www.breakingbadapi.com/api/characters"
+      `https://www.breakingbadapi.com/api/characters?limit=${limitPage}&offset=${
+        page * limitPage
+      }`
     );
-    state(petition.data);
+    setState(petition.data);
   } catch (e) {
     console.log("error", e);
   } finally {
@@ -13,12 +17,12 @@ export const getCharacters = async (state) => {
   }
 };
 
-export const getCharacter = async (state, id) => {
+export const getCharacter = async (setState, id) => {
   try {
     const petition = await axios.get(
       "https://www.breakingbadapi.com/api/characters/" + id
     );
-    state(petition.data[0]);
+    setState(petition.data[0]);
   } catch (e) {
     console.log("error", e);
   } finally {
@@ -26,12 +30,12 @@ export const getCharacter = async (state, id) => {
   }
 };
 
-export const getEpisodes = async (state) => {
+export const getEpisodes = async (setState) => {
   try {
     const petition = await axios.get(
       "https://www.breakingbadapi.com/api/episodes"
     );
-    state(petition.data);
+    setState(petition.data);
   } catch (e) {
     console.log("error", e);
   } finally {
@@ -39,12 +43,12 @@ export const getEpisodes = async (state) => {
   }
 };
 
-export const getQuotes = async (state) => {
+export const getQuotes = async (setState) => {
   try {
     const petition = await axios.get(
       "https://www.breakingbadapi.com/api/quotes"
     );
-    state(petition.data);
+    setState(petition.data);
   } catch (e) {
     console.log("error", e);
   } finally {
@@ -52,12 +56,12 @@ export const getQuotes = async (state) => {
   }
 };
 
-export const getDeaths = async (state) => {
+export const getDeaths = async (setState) => {
   try {
     const petition = await axios.get(
       "https://www.breakingbadapi.com/api/deaths"
     );
-    state(petition.data);
+    setState(petition.data);
   } catch (e) {
     console.log("error", e);
   } finally {
