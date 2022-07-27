@@ -41,7 +41,7 @@ const Home = () => {
           <Card character={character} />
           ))}
       </div>
-      <button className="container__button" onClick={handleNextPage}> Siguiente página </button>
+      <button className="container__button" onClick={handleNextPage}> &nbsp; Siguiente página &nbsp;</button>
     </div>
   );
 };
