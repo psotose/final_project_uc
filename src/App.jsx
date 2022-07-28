@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "../src/components/Navbar/Navbar";
+import Home from "./components/pages/Home/Home";
 import Main from "./components/pages/Main/Main";
 import Character from "./components/pages/Character/Character";
 import Footer from "./components/Footer/Footer";
@@ -11,7 +12,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/final_project_usach" exact element={<Main />} />
+          <Route path="/final_project_usach" exact element={<Home />} />
+          <Route path="/characters" exact element={<Main />} />
           <Route path="/Character/:id" element={<Character />} />
         </Routes>
         <Footer />
