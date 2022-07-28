@@ -20,7 +20,6 @@ const Home = () => {
 	}, []);
 
 	useEffect(() => {
-		console.log(characters, characters?.length);
 		if (characters?.length === 0) {
 			setPage(INITIAL_PAGE);
 		}
@@ -36,12 +35,10 @@ const Home = () => {
 			</div>
 			<div className="buttons">
 				<button className="container__button" onClick={handlePrevPage}>
-					{" "}
-					&nbsp; ◀Anterior &nbsp;
+					&nbsp; ◀&nbsp; Anterior &nbsp;
 				</button>
 				<button className="container__button" onClick={handleNextPage}>
-					{" "}
-					&nbsp; Siguiente▶ &nbsp;
+					&nbsp; Siguiente &nbsp;▶ &nbsp;
 				</button>
 			</div>
 		</div>

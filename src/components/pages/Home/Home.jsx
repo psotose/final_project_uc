@@ -12,7 +12,6 @@ const Home = () => {
 				muted
 			/>
 			<p className="container-video__title">
-				{" "}
 				Serie de televisión estadounidense que narra la historia de Walter
 				White, un profesor de química con problemas económicos a quien le
 				diagnostican un cáncer de pulmón inoperable. Para pagar su tratamiento y
