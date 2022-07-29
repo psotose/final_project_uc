@@ -1,9 +1,10 @@
 import React from "react";
+import img404 from "../../media/error404.png";
 
-const CharacterDetails = ({ character, quotes }) => {
+const CharacterDetails = ({ character}) => {
 	return (
 		<div className="character">
-			<img src={character?.img} alt="" className="character__img" />
+			<img src={character?.img ? character.img : img404} alt="" className="character__img" />
 			<div className="character__details">
 				<h1 className="character__name">{character?.name}</h1>
 				<p className="character__desc character__p">
@@ -11,9 +12,6 @@ const CharacterDetails = ({ character, quotes }) => {
 					esta interpretado por el actor/actriz {character?.portrayed}. Su
 					ocupación es {character?.occupation[0]}. Al final de la serie el
 					personaje está {character?.status}
-				</p>
-				<p className="character__deaths character__p">
-					{character?.name} asesinó a x personajes
 				</p>
 				<p className="character__appearance character__p">
 					{character?.appearance
