@@ -29,7 +29,7 @@ const Home = () => {
 					<Card character={character} />
 				))}
 			</div>
-			<div className="buttons">
+			<div className="container__buttons">
 				<button className="container__button" onClick={handlePrevPage}>
 					&nbsp; ◀&nbsp; Anterior &nbsp;
 				</button>
