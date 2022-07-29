@@ -20,11 +20,6 @@ const CharacterDetails = ({ character, quotes }) => {
 						? `Este personaje apareció en ${character?.appearance.length} temporadas.`
 						: ""}
 				</p>
-				<h2>
-					{quotes?.map((quote) => (
-						<h2 className="character__quote">"{quote.quote}"</h2>
-					))}
-				</h2>
 			</div>
 		</div>
 	);
