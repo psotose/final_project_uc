@@ -11,7 +11,8 @@ const Home = () => {
 				loop
 				muted
 			/>
-			<p className="container-video__title">
+			<h1 className="container-video__title">Breaking Bad Info</h1>
+			<p className="container-video__description">
 				Serie de televisión estadounidense que narra la historia de Walter
 				White, un profesor de química con problemas económicos a quien le
 				diagnostican un cáncer de pulmón inoperable. Para pagar su tratamiento y

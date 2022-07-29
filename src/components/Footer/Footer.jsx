@@ -10,7 +10,9 @@ const Footer = () => {
 					<img className="footer__logo" src={icon_bb} alt="logo" />
 				</Link>
 			</div>
-			<div className="footer__createdBy">Creado por Patricia Soto y Fabián Morales</div>
+			<div className="footer__createdBy">
+				Desarrollado por Patricia Soto y Fabián Morales
+			</div>
 		</div>
 	);
 };
