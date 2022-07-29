@@ -66,7 +66,6 @@
 			font-size: 1.8em;
 		}
 	}
-
 	&__p {
 		display: flex;
 		width: 75%;
@@ -76,6 +75,13 @@
 		@media screen and (max-width: 1023px) {
 			font-size: 1em;
 		}
+	}
+	&__quote {
+		font-style: italic;
+		font-size: 1.5em;
+		font-weight: bold;
+		padding-top: 0.5em;
+		color: aliceblue;
 	}
 }
 

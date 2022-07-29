@@ -1,5 +1,5 @@
 import React from "react";
-import fondo_Walter from "../../../media/fondo_Walter.mp4";
+import fondo_Walter from "../../media/fondo_Walter.mp4";
 
 const Home = () => {
 	return (
