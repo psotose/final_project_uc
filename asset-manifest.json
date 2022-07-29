@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final_project_usach/static/css/main.3fc36e52.css",
-    "main.js": "/final_project_usach/static/js/main.f54d5b7d.js",
+    "main.css": "/final_project_usach/static/css/main.92904fa0.css",
+    "main.js": "/final_project_usach/static/js/main.9ade16a1.js",
     "static/media/fondo_Walter.mp4": "/final_project_usach/static/media/fondo_Walter.f7c183a8cbb86b87c695.mp4",
     "static/media/bg-character.jpg": "/final_project_usach/static/media/bg-character.563ef21029f0df2f4c5c.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -12,11 +12,11 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/final_project_usach/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/final_project_usach/index.html",
-    "main.3fc36e52.css.map": "/final_project_usach/static/css/main.3fc36e52.css.map",
-    "main.f54d5b7d.js.map": "/final_project_usach/static/js/main.f54d5b7d.js.map"
+    "main.92904fa0.css.map": "/final_project_usach/static/css/main.92904fa0.css.map",
+    "main.9ade16a1.js.map": "/final_project_usach/static/js/main.9ade16a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fc36e52.css",
-    "static/js/main.f54d5b7d.js"
+    "static/css/main.92904fa0.css",
+    "static/js/main.9ade16a1.js"
   ]
 }
