@@ -1,5 +1,5 @@
 import { React, useEffect, useState } from "react";
-import { getCharacters, getQuotes } from "../../../services/breakingBadApi";
+import { getCharacters } from "../../services/breakingBadApi";
 import Card from "../Card/Card";
 
 const INITIAL_PAGE = 0;
@@ -7,17 +7,13 @@ const INITIAL_PAGE = 0;
 const Home = () => {
 	const [characters, setCharacters] = useState(null);
 	const [page, setPage] = useState(INITIAL_PAGE);
-	const [quotes, setQuotes] = useState(null);
+
 	const handleNextPage = () => setPage((currentPage) => currentPage + 1);
 	const handlePrevPage = () => setPage((currentPage) => currentPage - 1);
 
 	useEffect(() => {
 		getCharacters(setCharacters, page);
 	}, [page]);
-
-	useEffect(() => {
-		getQuotes(setQuotes);
-	}, []);
 
 	useEffect(() => {
 		if (characters?.length === 0) {

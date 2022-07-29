@@ -43,10 +43,10 @@ export const getEpisodes = async (setState) => {
   }
 };
 
-export const getQuotes = async (setState) => {
+export const getQuotes = async (setState, id) => {
   try {
     const petition = await axios.get(
-      "https://www.breakingbadapi.com/api/quotes"
+      "https://www.breakingbadapi.com/api/quotes/" + id
     );
     setState(petition.data);
   } catch (e) {
