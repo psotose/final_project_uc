@@ -5,7 +5,7 @@
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 	position: absolute;
-	height: 36.5em;
+	height: 30em;
 	width: 75%;
 	margin: 4em;
 	border: 1px solid black;
@@ -17,6 +17,7 @@
 
 	animation: mov 20s infinite;
 	@media screen and (max-width: 767px) {
+		height: 36.5em;
 		width: 16em;
 		display: flex;
 	}
@@ -25,7 +26,7 @@
 		height: 30em;
 	}
 	&__img {
-		height: 36.5em;
+		height: 30em;
 		width: 22em;
 		position: absolute;
 		right: 0em;
@@ -36,6 +37,7 @@
 		@media screen and (min-width: 768px) and (max-width: 1023px) {
 			right: 0;
 			height: 30em;
+			width: 20em;
 		}
 		@media screen and (max-width: 767px) {
 			right: 0;
@@ -45,12 +47,17 @@
 		}
 	}
 	&__details {
-		grid-area: 2 / 1 / 4 / 3;
+		grid-area: 1 / 1 / 4 / 3;
 		z-index: 2;
 		text-shadow: 0 3 10 rgba(0, 0, 0, 0.7);
 		padding: 2em;
+		width: 70%;
+		@media screen and (min-width: 768px) and (max-width: 1023px) {
+			grid-area: 2 / 1 / 4 / 3;
+		}
 		@media screen and (max-width: 767px) {
 			display: flex;
+			width: 100%;
 			flex-direction: column;
 			padding: 0.5em;
 			align-items: center;
@@ -68,7 +75,7 @@
 	}
 	&__p {
 		display: flex;
-		width: 75%;
+		width: 100%;
 		padding-left: 1em;
 		color: #203500;
 		font-size: 1.5em;
