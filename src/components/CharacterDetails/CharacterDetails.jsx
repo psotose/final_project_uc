@@ -1,10 +1,9 @@
 import React from "react";
-import img404 from "../../media/error404.png";
 
-const CharacterDetails = ({ character}) => {
+const CharacterDetails = ({ character }) => {
 	return (
 		<div className="character">
-			<img src={character?.img ? character.img : img404} alt="" className="character__img" />
+			<img src={character?.img} alt="" className="character__img" />
 			<div className="character__details">
 				<h1 className="character__name">{character?.name}</h1>
 				<p className="character__desc character__p">
@@ -15,7 +14,7 @@ const CharacterDetails = ({ character}) => {
 				</p>
 				<p className="character__appearance character__p">
 					{character?.appearance
-						? `Este personaje apareció en ${character?.appearance.length} temporadas.`
+						? `${character?.name} apareció en ${character?.appearance.length} temporadas.`
 						: ""}
 				</p>
 			</div>

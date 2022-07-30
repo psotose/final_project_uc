@@ -1,7 +1,5 @@
 import { React } from "react";
 import { Link } from "react-router-dom";
-import img404 from "../../media/error404.png"; 
- 
 const Card = ({ character }) => {
 	return (
 		<Link to={"/Character/" + character.char_id}>
@@ -10,8 +8,9 @@ const Card = ({ character }) => {
 				<div className="card__content">
 					<img
 						className="card__img"
-						src={character.img ? character.img : img404 }
+						src={character.img}
 						alt="imagebreaking bad"
+						onError={(e) => (e.target.style.display = "none")}
 					/>
 				</div>
 			</div>
